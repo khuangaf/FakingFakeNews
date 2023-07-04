@@ -11,4 +11,19 @@ Specifically, we perform self-critical sequence training guided by natural langu
 
 ## How to use this repo
 
-Please refer to the README within each model directory for specific instruction on how to run them.
+Please refer to the README within each model directory for specific instructions on how to run them.
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@inproceedings{huang2023faking,
+  title     = "Faking Fake News for Real Fake News Detection: Propaganda-loaded Training Data Generation",
+  author    = "Huang, Kung-Hsiang, Kathleen McKeown, Preslav Nakov, Yejin Choi, and Heng Ji",
+  year = "2023",
+  month= july,
+  booktitle = "Proceedings of the 61th Annual Meeting of the Association for Computational Linguistics",
+  publisher = "Association for Computational Linguistics",
+}
+```
