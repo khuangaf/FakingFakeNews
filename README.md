@@ -13,6 +13,11 @@ Specifically, we perform self-critical sequence training guided by natural langu
 
 Please refer to the README within each model directory for specific instructions on how to run them.
 
+## Data
+
+The generated data and the test data used in our experiments are included in the `data` folder. `train.jsonl`, `dev.jsonl`, and `test.jsonl` are our generated data. `snopes_test.jsonl` and `politifact_test.jsonl` contain real and fake news from Snopes and PolitiFact.
+
+
 ## Citation
 
 If you find this work useful, please consider citing:
@@ -27,3 +32,4 @@ If you find this work useful, please consider citing:
   publisher = "Association for Computational Linguistics",
 }
 ```
+

@@ -99,7 +99,7 @@ os.makedirs(output_dir)
 model = BERTModelForClassification(args.model_name).cuda()
 
 # init loader
-train_set = PropaFakeDataset(os.path.join(args.data_dir,'politifact_test.jsonl'))
+train_set = PropaFakeDataset(os.path.join(args.data_dir,'train.jsonl'))
 train_loader = DataLoader(train_set, batch_size=args.batch_size, shuffle=True, collate_fn=train_set.collate_fn)
 dev_set = PropaFakeDataset(os.path.join(args.data_dir,'dev.jsonl'))
 dev_loader = DataLoader(dev_set, batch_size=args.eval_batch_size, shuffle=False, collate_fn=dev_set.collate_fn)
